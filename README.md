@@ -72,7 +72,7 @@ HTML · CSS · JavaScript · Chrome Extension API · Node.js · Express.js · Op
 - **Node.js** v14 or higher
   - Check Node.js version:
 ```bash
-  node --version
+node --version
 ```
   - Install: https://nodejs.org/
 - **npm** (usually comes with Node.js)
@@ -85,40 +85,40 @@ HTML · CSS · JavaScript · Chrome Extension API · Node.js · Express.js · Op
 _Assumes Node.js (>=14) and npm are installed._
 ### 1. Clone the repo
 ```bash
-  git clone https://github.com/[unavailable]
+git clone https://github.com/[unavailable]
 ```
 ```bash
-  cd HonChain_AI
+cd HonChain_AI
 ```
 ### 2. Set up the server
 ```bash
-   cd server
+cd server
 ```
 
 ```bash
-  npm init -y
+npm init -y
 ```
 
 ```bash
-  npm install express cors axios rss-parser dotenv openai # installs Express, OpenAI, and other dependencies
+npm install express cors axios rss-parser dotenv openai # installs Express, OpenAI, and other dependencies
 ```
 
 ### 3. Configure environment variables
 - Create `.env` file inside the directory `server/`
   - Inside `.env` file, set two required variables: 
 ```
-  PORT=3000
+PORT=3000
 ```
 ```
-  OPENAI_API_KEY="your_openai_api_key_here"
+OPENAI_API_KEY="your_openai_api_key_here"
 ```
 ### 4. Start the backend (in Terminal #1)
 ```bash
-  cd server
+cd server
 ```
 
 ```bash
-  node server.js
+node server.js
 ```
 
 - You should see a message confirming that the server is `running on port 3000`.
@@ -127,7 +127,7 @@ _Assumes Node.js (>=14) and npm are installed._
 ### 5. Ensure the backend is accessible
 - Open your browser, visit:
 ```
-  http://localhost:3000/health
+http://localhost:3000/health
 ```
   - You should see: `{ "status": "ok", "message": "Server is running" }`
   - If this works, your backend is definitely accessible.
@@ -135,13 +135,13 @@ _Assumes Node.js (>=14) and npm are installed._
 ### 6. Check the alerts endpoint
 **a**. Visit this URL in your browser: 
 ```
-  http://localhost:3000/api/alerts
+http://localhost:3000/api/alerts
 ```
    - Initially, you may get an empty list `([])` if no news has been processed yet. 
 
 **b**. Trigger news fetch manually by entering the following `curl invocation` **in its own, terminal**. `(i.e. terminal #2)`
 ```bash 
-  curl -X POST http://localhost:3000/api/alerts/refresh
+curl -X POST http://localhost:3000/api/alerts/refresh
 ```
 
 - The `curl invocation` is to send an HTTP POST request to the local backend’s `refresh alerts` endpoint.
@@ -149,7 +149,7 @@ _Assumes Node.js (>=14) and npm are installed._
 
 **c**. After a few seconds, check again: 
 ```
-  http://localhost:3000/api/alerts
+http://localhost:3000/api/alerts
 ```
    - You should see `JSON-formatted alert data` returned from GPT.
    - You should also see JSON-formatted data returned in `terminal #2`.
@@ -167,7 +167,7 @@ _Assumes Node.js (>=14) and npm are installed._
 #### Open Chrome/Edge → Extensions → Load unpacked
 **a**. Open Chrome and navigate to: 
 ```
-  chrome://extensions/
+chrome://extensions/
 ```
 
 **b**. Enable `"Developer mode"` in the top-right corner
@@ -191,7 +191,7 @@ _Assumes Node.js (>=14) and npm are installed._
 
 #### The server fetches news articles from RSS feeds, analyzes them using OpenAI's API to identify supply chain risks, and provides endpoints for the extension to retrieve these alerts. The Chrome extension connects to your local server, registers itself, and periodically polls for new alerts. It displays notifications for new risk alerts and lets you view detailed information about each alert. The server runs on 
 ```
-  http://localhost:3000
+http://localhost:3000
 ```
 #### by default, which matches the API base URL configured in your extension. Make sure nothing else is running on that port.
 ---
