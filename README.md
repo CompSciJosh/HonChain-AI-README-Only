@@ -105,7 +105,7 @@ npm install express cors axios rss-parser dotenv openai # installs Express, Open
 
 ### 3. Configure environment variables
 - Create `.env` file inside the directory `server/`
-  - Inside `.env` file, set two required variables: 
+- Inside `.env` file, set two required variables: 
 ```
 PORT=3000
 ```
@@ -139,7 +139,7 @@ http://localhost:3000/api/alerts
 ```
    - Initially, you may get an empty list `([])` if no news has been processed yet. 
 
-**b**. Trigger news fetch manually by entering the following `curl invocation` **in its own, terminal**. `(i.e. terminal #2)`
+**b**. Trigger news fetch manually by entering the following `curl invocation` in its own, terminal. `(i.e. terminal #2)`
 ```bash 
 curl -X POST http://localhost:3000/api/alerts/refresh
 ```
@@ -152,7 +152,7 @@ curl -X POST http://localhost:3000/api/alerts/refresh
 http://localhost:3000/api/alerts
 ```
    - You should see `JSON-formatted alert data` returned from GPT.
-   - You should also see JSON-formatted data returned in `terminal #2`.
+   - You should also see `JSON-formatted data` returned in `terminal #2`.
    - You should also see an output such as:
 
       `Server running on port 3000`
