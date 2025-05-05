@@ -86,7 +86,7 @@ HTML · CSS · JavaScript · Chrome Extension API · Node.js · Express.js · Op
 _Assumes Node.js (>=14) and npm are installed._
 ### 1. Clone the repo
 ```bash
-   git clone https://github.com/CompSciJosh/HonChain_AI.git
+   git clone https://github.com/[unavailable]
 ```
 ```bash
    cd HonChain_AI
@@ -209,19 +209,19 @@ Make sure nothing else is running on that port.
 
 ## 📸 Screenshots
 ### 1. Start Server (Terminal #1)
-![HonChain_AI_start_server.png](screenshots/HonChain_AI_start_server.png)
+![HonChain_AI_start_server.png](HonChain_AI_start_server.png)
 
 ### 2. Refresh curl Command (Terminal #2)
-![HonChain_AI_curl.png](screenshots/HonChain_AI_curl.png)
+![HonChain_AI_curl.png](HonChain_AI_curl.png)
 
 ### 3. Output After curl Command To Refresh (Terminal #1)**
-![HonChain_AI_output.png](screenshots/HonChain_AI_output.png)
+![HonChain_AI_output.png](HonChain_AI_output.png)
 
 ### 4. HonChain AI Supply-Chain Browser Extension
-![HonChain_AI_pic_1.png](screenshots/HonChain_AI_pic_1.png)
-![HonChain_AI_pic_2.png](screenshots/HonChain_AI_pic_2.png)
-![HonChain_AI_pic_3.png](screenshots/HonChain_AI_pic_3.png)
-![HonChain_AI_pic_4.png](screenshots/HonChain_AI_pic_4.png)
+![HonChain_AI_pic_1.png](HonChain_AI_pic_1.png)
+![HonChain_AI_pic_2.png](HonChain_AI_pic_2.png)
+![HonChain_AI_pic_3.png](HonChain_AI_pic_3.png)
+![HonChain_AI_pic_4.png](HonChain_AI_pic_4.png)
 
 ---
 
