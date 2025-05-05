@@ -36,8 +36,7 @@ HonChain_AI/
 │  │   ├── notification-service.js
 │  │   └── risk-analyzer.js
 │  └── utils/
-│      └── index.js  
-├── requirements.txt            
+│      └── index.js             
 └──README.md
 ```
 ---
