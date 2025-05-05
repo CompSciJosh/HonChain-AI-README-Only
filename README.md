@@ -85,7 +85,7 @@ node --version
 _Assumes Node.js (>=14) and npm are installed._
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/[unavailable]
+git clone https://github.com/
 ```
 ```bash
 cd HonChain_AI
