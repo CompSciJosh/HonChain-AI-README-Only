@@ -1,5 +1,5 @@
 # 🐝 HonChain AI
-
+### "You get more supplies with Honey than with risk."
 **HonChain AI** is an AI‑powered Chrome/Edge extension for `Honeywell` that monitors real‑time supply‑chain and financial news, analyzes risk with GPT, and delivers actionable alerts right in your browser.
 
 ---
