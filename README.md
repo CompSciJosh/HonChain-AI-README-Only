@@ -13,7 +13,7 @@ HonChain_AI/
 │    │   ├── icon16.png
 │    │   └── icon48.png
 │    ├── background.js
-│    ├── content-scripts
+│    ├── content-scripts/
 │    │   └── alert-overlay.js
 │    ├── manifest.json
 │    └── popup/
