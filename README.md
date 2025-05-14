@@ -47,7 +47,7 @@ HonChain_AI/
 - Normalizes and filters by industry (Electronic Components, Aerospace, Chemicals & Materials, Industrial Equipment, Software/IT)
 
 ### 2. AI‑Driven Risk Analysis
-- Sends headlines to GPT‑4/3.5 via OpenAI API
+- Sends headlines to GPT‑4 via OpenAI API
 - Returns severity‐coded insights (Green/Yellow/Red)
 
 ### 3. Browser UI
@@ -238,6 +238,10 @@ http://localhost:3000
 ---
 
 ## 👤 Project By
-**Joshua Jackson**
+**Team JAMS**  
+Joshua Jackson - Lead AI & FullStack Developer  
+Anthony Pham - Developer  
+Marc Mata - Developer  
+Sukhraj Singh - Developer  
 
 Honeywell AI Launchpad Hackathon · Prairie View A&M University · May 2025
