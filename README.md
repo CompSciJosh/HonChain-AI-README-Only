@@ -238,10 +238,7 @@ http://localhost:3000
 ---
 
 ## 👤 Project By
-**Team JAMS**  
-Joshua Jackson - Lead AI & FullStack Developer  
-Anthony Pham - Developer  
-Marc Mata - Developer  
-Sukhraj Singh - Developer  
+**Joshua Jackson - AI & FullStack Engineer**  
+ 
 
 Honeywell AI Launchpad Hackathon · Prairie View A&M University · May 2025
