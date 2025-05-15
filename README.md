@@ -238,7 +238,7 @@ http://localhost:3000
 ---
 
 ## 👤 Project By
-**Joshua Jackson - AI & FullStack Engineer**  
+**Joshua Jackson - AI & Full-Stack Engineer**  
  
 
 Honeywell AI Launchpad Hackathon · Prairie View A&M University · May 2025
